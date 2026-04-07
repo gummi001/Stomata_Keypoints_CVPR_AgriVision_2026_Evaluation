@@ -38,6 +38,7 @@ The benchmark includes **1 training split** (`KP-Train`) and **9 held-out test s
 Each stomata instance is annotated in **COCO keypoint format** with four keypoints:
 - `p0, p1`: polar tips along the stomatal length axis
 - `p2, p3`: lateral endpoints along the stomatal width axis
+- Some public benchmark splits provide annotations only. For those splits, original images must be obtained separately from the source links listed in the Hugging Face dataset card.
 
 ## Evaluated Pipelines
 
